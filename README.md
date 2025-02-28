@@ -107,8 +107,10 @@ Step 6: Test File Access via CloudFront
 
 To verify CloudFront’s integration with S3, try accessing a file:
 ```bash
-curl -I https://YOUR_CLOUDFRONT_DOMAIN/testfile.txt
+ https://YOUR_CLOUDFRONT_DOMAIN/testfile.txt
 ```
+![Screenshot (733)](https://github.com/user-attachments/assets/0352403b-44f3-46ef-a357-115790bb5d8d)
+
  Expected Results:
 ✅ If CloudFront is correctly configured, it will fetch the file from S3.
 ❌ If permissions are incorrect, Access Denied will appear.
