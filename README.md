@@ -90,6 +90,9 @@ To ensure that only CloudFront can fetch files from S3, we create an IAM policy:
 
 ![Screenshot (729)](https://github.com/user-attachments/assets/4100b580-8bcd-4b81-a63d-fa51f93c1dcd)
 
+![Screenshot (729)](https://github.com/user-attachments/assets/d17cc169-03d9-4d6b-a871-85873e37e5bc)
+
+
 
 
 Step 5: Create a CloudFront Distribution
