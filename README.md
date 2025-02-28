@@ -115,22 +115,16 @@ curl -I https://YOUR_CLOUDFRONT_DOMAIN/testfile.txt
 
 📌Challenges & Solutions" Section
 
-    Since CloudFront had permission issues, document what you tried and the solution you found.
-    Example:## Challenges Faced & Solutions
 -     **Issue:** CloudFront access denied due to incorrect IAM policy.
 -     **Solution:** Updated bucket policy to allow CloudFront service principal.
 
 "Cleanup" Section
-
-    Include commands to delete the S3 bucket and CloudFront distribution to prevent unnecessary AWS charges.
-    Example:
-    ## Cleanup & Deletion
 If you no longer need this setup, remove the resources:
 ```bash
 aws cloudfront delete-distribution --id YOUR_DISTRIBUTION_ID
 aws s3 rm s3://secure-file-storage-mumbai --recursive
 aws s3api delete-bucket --bucket secure-file-storage-mumbai
-
+```
 
 
 
