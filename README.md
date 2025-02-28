@@ -10,7 +10,8 @@ This project implements a secure file storage system using Amazon S3, AWS CloudF
 
 📊 Architecture Diagram
 
-![storagedrawio](https://github.com/user-attachments/assets/e9c70afa-f9b1-4421-92d2-f8e4c1941669)
+![diagram-export-3-1-2025-1_18_54-AM](https://github.com/user-attachments/assets/f7586b08-3f90-4d06-a754-69c496a321d9)
+
 
 
 🛠 AWS Services Used
